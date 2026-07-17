@@ -1,0 +1,5 @@
+# Crosslend
+
+Crosslend is a company surfaced as a portfolio company of earlybird, northzone and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+
+Backed by: earlybird, northzone — http://www.crosslend.com
