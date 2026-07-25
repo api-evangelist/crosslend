@@ -1,8 +1,25 @@
 aid: crosslend
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crosslend.png
 name: Crosslend
-description: Crosslend is a company surfaced as a portfolio company of earlybird, northzone and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: CrossLend is a Berlin-based fintech providing digital debt technology for the private
+  lending and securitisation space. Its platform offers Portfolio Analytics for loan-level data
+  validation, granular portfolio insights and automated reporting, and Securitisation-as-a-Service
+  that digitises and automates the issuance of financial instruments, including SPV setup, legal and
+  compliance frameworks and audit-proof reporting. CrossLend serves banks, asset managers and
+  institutional lenders across Europe, and is backed by Earlybird and Northzone. The company exposes
+  no public developer API surface today; this profile tracks its identity and security posture in the
+  API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/crosslend/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fintech
+- Lending
+- Securitisation
+- Portfolio Analytics
+- Debt Capital Markets
+- Banking
+- Europe
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/crosslend-domain-security.yml
 - type: Website
-  url: http://www.crosslend.com
+  url: https://www.crosslend.com
+- type: Blog
+  url: https://crosslend.com/blog/
+- type: Support
+  url: https://crosslend.com/contact/
+- type: TermsOfService
+  url: https://crosslend.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://crosslend.com/terms-of-use/#privacy-policy
+- type: Login
+  url: https://marketplace.crosslend.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/9363391
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
