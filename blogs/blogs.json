@@ -2,14 +2,10 @@
   "repo": "crosslend",
   "feeds": [
     {
-      "source": "https://crosslend.com/feed/",
-      "error": "URLError"
-    },
-    {
       "source": "https://www.crosslend.com",
       "error": "URLError"
     }
   ],
   "post_count": 10,
-  "fetched": "2026-08-06T14:08:46Z"
+  "fetched": "2026-08-15T12:22:01Z"
 }
