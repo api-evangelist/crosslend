@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/crosslend/integrations
+- https://n8n.io/integrations/crosslend/
+- https://composio.dev/toolkits/crosslend
+- https://monid.ai/tools/crosslend
+checked:
+- https://composio.dev/toolkits/crosslend
+- https://monid.ai/tools/crosslend
+- https://n8n.io/integrations/crosslend/
+- https://zapier.com/apps/crosslend/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
